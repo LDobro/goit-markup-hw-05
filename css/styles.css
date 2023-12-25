@@ -38,15 +38,7 @@ body {
 }
 
 .nav-link-main-page:hover {
-        color: #404BBF;
-}
-
-.nav-link-main-page a:hover {
-    color: #404BBF;
-}
-
-.nav-link-main-page:active {
-    color: #404BBF;
+    color:#404bbf;
 }
 
 .nav-link-main-page:focus {
