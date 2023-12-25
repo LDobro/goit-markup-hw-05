@@ -37,7 +37,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.nav-link-main-page:hover,
+.nav-link-main-page:hover {
+        color: #404BBF;
+    }
+    
 .nav-link-main-page:focus {
     color: #404BBF;
 }
@@ -51,7 +54,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.address-link:hover, 
+.address-link:hover {
+        color: #404BBF;
+    }
+
 .address-link:focus {
     color: #404BBF;
 }
