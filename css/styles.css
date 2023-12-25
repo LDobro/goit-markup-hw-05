@@ -41,11 +41,15 @@ body {
         color: #404BBF;
 }
 
+.nav-link-main-page:active {
+    color: #404BBF;
+}
+
 .nav-link-main-page:focus {
     color: #404BBF;
 }
 
-address {
+.address {
     font-style: normal;
 }
 
