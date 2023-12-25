@@ -39,10 +39,14 @@ body {
 
 .nav-link-main-page:hover {
         color: #404BBF;
-    }
-    
+}
+
 .nav-link-main-page:focus {
     color: #404BBF;
+}
+
+address {
+    font-style: normal;
 }
 
 .address-link {
