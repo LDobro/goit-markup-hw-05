@@ -59,6 +59,15 @@ body {
     color: #404BBF;
 }
 
+.nav-link-main-page {
+   color: #2e2f42;
+}
+
+.nav-link-main-page:hover,
+.nav-link-main-page:focus {
+    color: #404BBF;
+}
+
 .address {
     color: #434455;
     font-style: normal;
@@ -69,6 +78,15 @@ body {
 }
 
 .address:hover, 
+.address:focus {
+    color: #404BBF;
+}
+
+.address-link{
+    color: #434455
+}
+
+.address-link:hover,
 .address:focus {
     color: #404BBF;
 }
@@ -100,11 +118,9 @@ body {
     cursor: pointer;
 }
 
-.button-1:hover, 
-.button-1:active, 
-.button-1:focus {
+.button:hover,  
+.button:focus {
     background-color: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /*Section Values*/
@@ -123,7 +139,7 @@ body {
 }
 
 /* Team */
-.team{
+.team {
     background-color: #F4F4FD;
 }
 
@@ -147,6 +163,10 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
 }
 
 .team-text {
