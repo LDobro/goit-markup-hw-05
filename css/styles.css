@@ -37,9 +37,14 @@ body {
     letter-spacing: 0.02em;
 }
 
-.nav-link-main-page:hover, .nav-link-main-page:focus {
-    color: #404BBF;
+.nav-link-main-page:hover {
+    #404bbf;
 }
+
+.nav-link-main-page:focus {
+    #404bbf;
+}
+
 
 
 .address {
