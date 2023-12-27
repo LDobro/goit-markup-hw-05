@@ -37,8 +37,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.nav-link-main-page:hover {
-    color:#404bbf;
+.header-link-main:hover {
+    color:#404BBF;
 }
 
 .nav-link-main-page:focus {
