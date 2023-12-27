@@ -37,11 +37,11 @@ body {
     letter-spacing: 0.02em;
 }
 
-.header-item:first-child .nav-link-main-page:hover {
+.nav-link-main-page:hover {
     color: #404bbf;
 }
 
-.header-item:first-child .nav-link-main-page:focus {
+.nav-link-main-page:focus {
     color: #404bbf;
 }
 
