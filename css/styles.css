@@ -37,11 +37,11 @@ body {
     letter-spacing: 0.02em;
 }
 
-.header-menu > .nav-link-main-page:hover {
+.header-logo > .nav-link-main-page:hover {
     #404bbf;
 }
 
-.nav-link-main-page:focus {
+.header-logo > .nav-link-main-page:focus {
     #404bbf;
 }
 
