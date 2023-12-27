@@ -41,10 +41,9 @@ body {
     color: #404bbf;
 }
 
-.nav-link-main-page:focus {
+.header-item:first-child .nav-link-main-page:focus {
     color: #404bbf;
 }
-
 
 
 .address {
