@@ -37,7 +37,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.nav-link-main-page:hover {
+.header-item:first-child .nav-link-main-page:hover {
     #404bbf;
 }
 
