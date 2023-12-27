@@ -29,7 +29,7 @@ body {
     color: #2e2f42;
 }
 
-.nav-link-main-page {
+.nav-link-main-page-one {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -37,11 +37,11 @@ body {
     letter-spacing: 0.02em;
 }
 
-.nav-link-main-page:hover {
+.header-menu .nav-link-main-page-one:hover {
     color: #404BBF;
 }
 
-.nav-link-main-page:focus {
+.nav-link-main-page-one:focus {
     color: #404BBF;
 }
 
