@@ -41,8 +41,7 @@ body {
     color:#404BBF;
 }
 
-.header-link-main:focus, 
-.header-link-main:active {
+.header-link-main:focus {
     color: #404BBF;
 }
 
