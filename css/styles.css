@@ -41,7 +41,8 @@ body {
     color:#404BBF;
 }
 
-.nav-link-main-page:focus {
+.header-link-main:focus, 
+.header-link-main:active {
     color: #404BBF;
 }
 
