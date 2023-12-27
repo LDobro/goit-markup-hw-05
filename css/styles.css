@@ -38,11 +38,11 @@ body {
 }
 
 .header-item:first-child .nav-link-main-page:hover {
-    #404bbf;
+    color: #404bbf;
 }
 
 .nav-link-main-page:focus {
-    #404bbf;
+    color: #404bbf;
 }
 
 
