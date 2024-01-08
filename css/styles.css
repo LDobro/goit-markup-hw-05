@@ -121,6 +121,8 @@ img {
 
 /*! Main */
 
+/* Solutions */
+
 .solutions {
     background-color: #2e2f42;
 }
@@ -131,7 +133,7 @@ img {
     justify-content: center;
 }
 
-.header {
+.header-solutions {
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
@@ -140,15 +142,13 @@ img {
     background: #2E2F42;
     text-align: center;
     
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-bottom: 292px;
-    padding-left: 472px;
+    padding: 188px 0 48px;
+    max-width: 496px;
 }
 
 .button {
     font-family: inherit;
-    background:#4D5AE5;
+    background-color:#4D5AE5;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
@@ -156,15 +156,16 @@ img {
     letter-spacing: 0.04em;
     cursor: pointer;
 
-    display: inline-flex;
+    display: block;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
+    border: none;
     height: 56px;
-    align-items: center;
-    margin-top: 48px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 188px;
-    margin-left: 636px;
-}
+} 
 
 .button:hover,  
 .button:focus {
