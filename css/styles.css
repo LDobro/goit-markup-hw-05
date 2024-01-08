@@ -127,8 +127,10 @@ img {
     background-color: #2e2f42;
 }
 
-.container .header {
-    display: inline-flex;
+.solutions .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header {
@@ -172,27 +174,54 @@ img {
 }
 
 /*Section Values*/
+
+.container .values-list {
+    display: flex;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
 .values-header-item {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height:1.2;
     letter-spacing: 0.02em;
+
+    margin-top: 120px;
 }
 
 .values-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
+    margin-bottom: 120px;
 }
 
 /* Team */
+
+.team .container {
+    display: column;
+    background: #F4F4FD;
+    height: 732px;
+    }
+
 .team {
     background-color: #F4F4FD;
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+    display: flex;
+    margin-top: 72px;
+    gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-bottom: 120px;
 }
 
 .team-header-main {
@@ -203,6 +232,8 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+
+    padding-top: 120px;
 }
 
 .team-header-item {
@@ -211,6 +242,10 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+
+.team-text {
+    margin-bottom: 32px;
 }
 
 .team-list-item {
@@ -223,7 +258,27 @@ img {
     letter-spacing: 0.02em;
 }
 
+
+
 /* Portfolio */
+
+.portfolio .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.team-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    row-gap: 12px;
+    column-gap: 24px;
+    margin-bottom: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
 .portfolio-header-main {
     color: #2E2F42;
     text-align: center;
@@ -233,23 +288,23 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+
+    margin-top: 120px;
 }
 
-.portfolio-header-item {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.portfolio-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.portfolio-listed-item {
+    border: 1px solid var#E7E9FC;
+    background:#FFF;
 }
 
 /*! Footer */
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    height: 312px;
+}
+
 .footer {
     background: #2E2F42;
 }
@@ -272,6 +327,9 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    margin-top: 101.5px;
+    margin-left: 156px;
 }
 
 .footer-text {
@@ -279,4 +337,8 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
+    margin-top: 17.5px;
+    margin-left: 156px;
+    width: 264px;
 }
