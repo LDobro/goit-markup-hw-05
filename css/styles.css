@@ -160,7 +160,7 @@ img {
     color: #404BBF;
 }
 
-.address-menu {
+.address-list a .address-link{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -169,7 +169,7 @@ img {
 
 /* Solutions */
 
-.solutions {
+.solutions .container {
     background-color: #2e2f42;
     padding: 188px 0 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -198,7 +198,7 @@ img {
     max-width: 496px;
 }
 
-.button {
+.solutions .button {
     font-family: inherit;
     background-color:#4D5AE5;
     color: #FFFFFF;
