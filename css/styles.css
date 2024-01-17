@@ -119,7 +119,6 @@ img {
     width: 48px;
     background-color: #404bbf;
     border-radius: 2px;
-
 }
 
 
@@ -173,11 +172,12 @@ img {
 .solutions {
     background-color: #2e2f42;
     padding: 188px 0 188px;
-    background-repeat: no-repeat;
-
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
-    ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url('/images/people-office 1.jpg');
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .solutions .container {
@@ -217,6 +217,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 .button:hover,  
