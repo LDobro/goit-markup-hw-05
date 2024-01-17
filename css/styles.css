@@ -248,6 +248,18 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     width: calc((100% - 72px) / 4);
 }
 
+.values-listed-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+}
+
+
 .values-header-item {
     color: #2E2F42;
     font-size: 20px;
