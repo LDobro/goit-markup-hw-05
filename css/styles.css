@@ -369,6 +369,10 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 .team-icon {
     fill: #f4f4fd;
 }
+.team-listed-item-icon {
+    width: 40px;
+    height: 40px;
+}
 
 
 /* Portfolio */
