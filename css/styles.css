@@ -101,19 +101,20 @@ img {
     padding: 24px 0 24px;
 }
 
-.nav-link-main-page-additional {
+.header-menu li:first-child a {
     position: relative;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link-main-page-additional::after {
+.header-menu li:first-child a::after {
     content:'';
     width: 100%;
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
+    width: 48px;
     background-color: #404bbf;
     border-radius: 2px;
 
@@ -127,7 +128,6 @@ img {
 .nav-link-main-page:focus {
     color: #404bbf;
 }
-
 
 .address {
     font-style: normal;
@@ -145,6 +145,8 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover {
@@ -155,9 +157,6 @@ img {
     color: #404BBF;
 }
 
-.address-menu {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
 /*! Main */
