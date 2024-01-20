@@ -441,18 +441,18 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     width: calc((100%-48px))/3;
 }
 
-.portfolio-listed-item .portfolio-img {
+.portfolio-listed-item {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-listed-item:hover .portfolio-img {
+.portfolio-listed-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
 
-.portfolio-listed-item:hover .portfolio-img {
+.portfolio-listed-item:hover .portfolio-img-text {
     transform: translateY(0%);
 }
 
