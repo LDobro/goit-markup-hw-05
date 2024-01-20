@@ -357,15 +357,16 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     display: flex;
     align-items: center;
     justify-content: center;
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icon-link:hover {
+ .team-icon-list .team-icon-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-icon-list .team-icon-link:hover {
     background-color: #404bbf;
 }
 
-.team-icon-link:focus {
+.team-icon-list .team-icon-link:focus {
     background-color: #404bbf;
 }
 
