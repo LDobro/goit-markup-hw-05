@@ -365,8 +365,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     background-color: #404bbf;
 }
 
-.team-icon-link:focus,
-.team-icon-link:active {
+.team-icon-link:focus {
     background-color: #404bbf;
 }
 
