@@ -702,7 +702,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     cursor: pointer;
     padding: 0;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover {
@@ -714,6 +717,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-close-btn:focus {
     border: none;
     fill: #ffffff;
+    background-color: #404bbf;
 }
 
 
@@ -745,6 +749,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-field {
     width: 100%;
     margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-input {
@@ -759,9 +764,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:hover ,
-.modal-input:focus {
-    border-color: 1px solid #4D5AE5;
+.modal-input .modal-icon:hover ,
+.modal-input .modal-icon:focus {
+    border-color: #4D5AE5;
     fill: #4D5AE5;
 }
 
@@ -797,6 +802,14 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: transparent;
     padding: 8px 16px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text-area:hover,
@@ -854,9 +867,15 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
+.label-user-privacy-span {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+}
+
 .checkbox-input:checked + .policy-label span {
     background-color: #404BBF;
     fill: #f4f4fd
+    border: none;
     
 }
 
@@ -871,7 +890,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn {
-    display: flex;
+    display: block;
     padding: 16px 32px;
     align-items: center;
     justify-content: center;
@@ -883,7 +902,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: transparent;
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
+    font-family: Roboto, ,
+        sans-serif;
+    cursor: pointer;
+    border: none;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -891,7 +914,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.04em;
 
     height: 56px;
-    width: 169px;
+    min-width: 169px
 
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
