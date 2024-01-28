@@ -470,10 +470,22 @@
           </li>
         </ul>
       </div>
+
+      <div class="subscribe">
+        <p class="subscribe-text">Subscribe</p>
+        <input type="email" class="subscribe-email" placeholder="E-mail"/>
+      </div>
+
+      <div class="footer-button-subscribe">
+        <button type="submit" class="subscribe-button">Subscribe</button>
+        <svg class="subscribe-button-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-subscribe-button"></use>
+        </svg>
+      </div>
     </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
 
         <button type="button" class="modal-close-btn">
@@ -530,8 +542,14 @@
         </div>
 
         <div class="modal-checkbox-policy">
-          <input type="checkbox" name="policy" value="checkmark"/>
-          <p class="checkbox-text">I accept the terms and conditions of the <span><a href="./">Privacy Policy</a></span></p>
+          <input type="checkbox" name="policy" value="checkmark" id="policy" class="checkbox-input visually-hidden"/>
+          <label for="policy" class="policy-label">
+            <span>
+              <svg class="icon-checkbox-mark" width="16" height="16">
+                <use href="./images/icons.svg#icon-click"></use>
+              </svg>
+            </span>I accept the terms and conditions of the<a class="link-policy" href="./">Privacy Policy</a></label>
+          
         </div>
 
         <button type="submit" class="modal-btn">Send</button>
