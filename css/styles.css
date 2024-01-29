@@ -834,6 +834,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .policy-label {
+    display: inline-flex;
     color: #8E8F99;
     font-family: Roboto;
     font-size: 12px;
@@ -843,8 +844,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.04em;
     align-items: center;
     justify-content: start;
-    display: flex;
-
 }
 
 span .label-user-privacy-span {
