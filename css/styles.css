@@ -847,7 +847,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.plabel-user-privacy-span {
+.label-user-privacy-span {
     display: inline-flex;
     width: 16px;
     height: 16px;
@@ -860,7 +860,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-inpu:checked + .label-user-privacy-span {
+.checkbox-input:checked + .label-user-privacy-span {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
@@ -879,27 +879,24 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn {
-
     display: block;
+    height: 56px;
+    min-width: 169px;
     margin: 0 auto;
     padding: 16px 32px;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
     border: none;
     border-radius: 4px;
     background-color: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    outline: transparent;
     color: #ffffff;
-    text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    height: 56px;
-    min-width: 169px
-    cursor: pointer;
     
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
