@@ -24,7 +24,7 @@ ul {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -630,10 +630,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    min-width: 165px;   
-    font-family: Roboto, sans-serif;
+    gap: 16px;   
+    font-family: Roboto;
     height: 40px;
+    min-width: 165px;
     border-radius: 4px;
     background-color: #4D5AE5;
     border: none;
@@ -693,6 +693,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-basic {
+    margin-bottom: 16px;
+}
+
 .modal-close-btn {
     position: absolute;
     height: 24px;
@@ -707,10 +711,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     cursor: pointer;
     padding: 0;
-}
-
-.modal-close-btn {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover {
@@ -798,10 +799,6 @@ input .modal-icon:focus {
     background: #2E2F42;
 }
 
-
-.modal-textarea-field {
-    margin-bottom: 16px
-}
 
 .modal-text-area {
     width: 100%;
@@ -913,8 +910,7 @@ input .modal-icon:focus {
     outline: transparent;
     color: #FFF;
     text-align: center;
-    font-family: Roboto, ,
-        sans-serif;
+    font-family: Roboto, sans-serif;
     cursor: pointer;
     border: none;
 
